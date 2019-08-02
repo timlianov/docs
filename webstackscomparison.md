@@ -6,6 +6,17 @@
 | Corda       | Corda is written in Kotlin and has good API: https://docs.corda.net/api-states.html  Kotlin libraries can be easily called from Java: https://kotlinlang.org/docs/reference/java-to-kotlin-interop.html | N/A                                                                |
 | AWS         | https://github.com/aws/aws-sdk-java                                                                                                                                                                    | https://github.com/boto/boto3                                      |
 
+It's hard to compare SDK and API integration with concrete criterias but in general we have the next decisions:
+
+* In general Java tools looks better than Python
+* Corda has no any Python support. It's written in Kotlin - a modern language running in JVM, so Kotlin code can be easy called from Java code.
+* AWS SDK for Java looks more robust than the same for Python (boto3). It also have 2-times larger amount of contributors, better documented and a few time ago AWS released Java AWS SDK v2.0 with the next new features:
+    * Nonblocking I/O
+    * Automatic pagination
+    * Pluggable HTTP layer
+* Java SDK for Hyperledger also better documented than Python analog and also looks as more robust software. 
+
+
 # Python and Java web-stacks comparison
 
 |                               | Java/Spring                                                   | Python/aiohttp                                | Python/Django                              | Python/Flask                               |
