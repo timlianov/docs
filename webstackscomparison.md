@@ -1,3 +1,11 @@
+# Python and Java integrations for cloud and blockchain API/SDKs
+
+|             | Java                                                                                                                                                                                                   | Python                                                             |
+|-------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------|
+| Hyperledger | https://github.com/hyperledger/fabric-sdk-java                                                                                                                                                         | https://github.com/hyperledger/fabric-sdk-py/blob/master/README.md |
+| Corda       | Corda is written in Kotlin and has good API: https://docs.corda.net/api-states.html  Kotlin libraries can be easily called from Java: https://kotlinlang.org/docs/reference/java-to-kotlin-interop.html | N/A                                                                |
+| AWS         | https://github.com/aws/aws-sdk-java                                                                                                                                                                    | https://github.com/boto/boto3                                      |
+
 # Python and Java web-stacks comparison
 
 |                               | Java/Spring                                                   | Python/aiohttp                                | Python/Django                              | Python/Flask                               |
@@ -10,6 +18,8 @@
 | ORM                           | Yes                                                           | SQL-Alchemy                                   | Yes                                        | SQL-Alchemy                                |
 | DB migrations                 | Flyway,  luquibase                                            | alembic                                       | Yes                                        | Flask-Migrate, alembic                     |
 | Security                      | Yes                                                           | aiohttp-security (3rd-party lib)              | Yes                                        | Yes                                        |
+
+
 
 
 ## Java / Spring Framework
